@@ -22,6 +22,7 @@ def exact(G, q, k):
     for i in range(2, len(q_adjList)):
         node_i = q_adjList[i]
         for j in range(0, i - 1):
+
             for h in range(j + 1, i):
                 node_j = q_adjList[j]
                 node_h = q_adjList[h]
